@@ -1,0 +1,53 @@
+.edit-profile {
+  width: 50%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 20px;
+}
+.edit-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  color: #1ecefd;
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.update-button {
+  background-color: #505355;
+  color: white;
+  width: 100%;
+  border-radius: 18px;
+  height: 50px;
+  border: none;
+  transition: 0.2s;
+}
+
+.update-button:hover {
+  background-color: #5becd8;
+  color: #505355;
+  font-size: 20px;
+}
+
+.form-input {
+  border: black solid 1px;
+  border-radius: 15px;
+  height: 30px;
+  padding: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+}
+
+.bio {
+  height: 200px;
+  border: black solid 1px;
+  border-radius: 15px;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}

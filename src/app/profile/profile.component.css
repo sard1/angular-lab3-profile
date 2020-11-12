@@ -1,0 +1,51 @@
+.profile-container {
+  width: 45%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.info-container {
+  padding: 10px 20px 20px 20px;
+}
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact {
+  font-size: 20px;
+  color: darkgrey;
+  padding: 10px 0px 10px 0px;
+}
+
+.bio {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.edit-button {
+  background-color: #505355;
+  color: white;
+  width: 100%;
+  border-radius: 18px;
+  height: 50px;
+  border: none;
+  transition: 0.2s;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.edit-button:hover {
+  background-color: #5becd8;
+  color: #505355;
+  font-size: 20px;
+}
